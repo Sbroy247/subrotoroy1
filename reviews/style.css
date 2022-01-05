@@ -1,0 +1,134 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+section {
+    width: 100%;
+    height: 100vh;
+    background: rgb(27 26 26);
+}
+
+
+img#person {
+    /* position: absolute; */
+    max-width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.container-wrapper {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    color: white;
+}
+
+.container {
+    background: white;
+    color: black;
+    padding: 30px;
+    border-radius: 20px;
+    width: 500px;
+    margin-top: 30px;
+    outline: none;
+   
+    box-shadow: 1px 2px 10px #fff;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    /* overflow: hidden; */
+    margin: auto;
+    position: relative;
+    box-shadow: -2px 17px 20px;
+    z-index: 1;
+}
+
+
+.image:after {
+    font-size: 16px;
+    content: "?";
+    height: 41px;
+    width: 40px;
+    background: rgb(63 63 119);
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 15px;
+    left: 19px;
+    border-radius: 100%;
+    z-index: 10;
+}
+
+.image:before {content: "";width: 100%;height: 100%;position: absolute;background: rgb(44 44 212);border-radius: 100%;left: 7px;z-index: -1;}
+
+h4#author {
+    font-size: 30px;
+    text-transform: capitalize;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    /* font-size: 22px; */
+    margin-bottom: 30px;
+}
+
+.btn button {
+    font-size: 30px;
+    color: rgb(1 109 109);
+    cursor: pointer;
+}
+
+button#randomBtn {
+    font-weight: 600;
+    padding: 20px 30px;
+    border: none;
+    background: goldenrod;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 145px;
+    font-size: 20px;
+    color: snow;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 50px 0px;
+    text-transform: capitalize;
+    position: relative;
+    width: 100%;
+}
+
+
+
+.container-wrapper h2:after {
+    position: absolute;
+    width: 74px;
+    height: 5px;
+    background: blue;
+    content: "";
+    /* top: 0; */
+    left: 50%;
+    bottom: -8px;
+    transform: translate(-50%);
+    left: 50%;
+}
+h3#job {
+    text-align: center;
+    margin: 19px;
+    font-size: 24px;
+    color: rgb(64 120 121);
+}

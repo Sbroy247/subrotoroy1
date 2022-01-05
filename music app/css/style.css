@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/* font-family: 'Courgette', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Teko:wght@300;400;500;600;700&display=swap');
+/* font-family: 'Teko', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Teko', sans-serif;
+    box-sizing: border-box;
+}
+#musical-lab {
+    height: 100vh;
+    background: linear-gradient(45deg, rgb(223 124 23), rgb(17 22 167 / 90%));
+    /* background-image: url(../cover.png); */
+}
+.nav-bars {
+    background: rgb(26 28 44);
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+nav img {
+    width: 50px;
+    border-radius: 34px;
+    margin-right: 8px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(64 224 208);
+    margin-right: 70px;
+    font-size: 29px;
+    font-family: 'Courgette', cursive;
+}
+
+nav a span {
+    color: red;
+    font-weight: 600;
+    font-family: 'Courgette', cursive;
+}
+ul.main-menu {
+    list-style: none;
+    display: flex;
+}
+
+li.inner-menu {
+    font-size: 23px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.middle-part {
+    width: 100vw;
+}
+
+.container {
+    width: 80vw;
+    margin: auto;
+}
+
+.coverimg {
+    margin: 32px 0px;
+    background-color: rgb(28 26 26);
+    border-radius: 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../cover.png);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.songs-list-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.songs-list {
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-between;
+    width: 30vw;
+    padding: 5px 20px;
+    border: 1px solid lightseagreen;
+    border-radius: 30px;
+    outline: none;
+    background: transparent;
+    color: white;
+}
+
+.songs-list img {
+    width: 41px;
+    height: 30px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.songs-list h3 {
+    font-size: 16px;
+}
+
+.songs-list a {
+    color: white;
+}
+.ended-part {
+    width: 100vw;
+    background: rgb(26 28 44);
+    color: white;
+    padding: 10px;
+}
+
+input#progress {
+    width: 100%;
+    transition: .8s;
+    cursor: pointer;
+}
+
+.controling-icon {
+    /* display: flex; */
+    justify-content: center;
+}
+
+.controling-icon a {
+    color: ghostwhite;
+    margin-right: 13px;
+    font-size: 21px;
+}
+
+.musical-instrument {
+    padding: 10px 0px;
+}
+
+.name {
+    width: 34%;
+    overflow: hidden;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    position: absolute;
+}
+
+.icon {
+    display: flex;
+    /* width: 61%; */
+    /* text-align: center; */
+    /* margin-left: -99px; */
+    justify-content: center;
+}
+
+
+#gif {
+    opacity: 0;
+    transition: .4s;
+    margin-right: 17px;
+}
+
+img#gif {
+    width: 79px;
+    left: 10vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
